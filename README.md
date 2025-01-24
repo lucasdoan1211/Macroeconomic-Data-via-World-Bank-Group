@@ -25,11 +25,15 @@ NY.GDP.MKTP.KD.ZG - GDP Growth Rate
 SL.AGR.EMPL.ZS - Employment in Agriculture (%)
 FR.INR.DPST - Deposit Interest Rates
 Start Year: Specify the minimum year for data retrieval (e.g., 2010).
+
+
 2. Data Retrieval
 The script sends requests for each indicator, processes the response, and filters records:
 
 Only includes entries with non-missing values.
 Filters results by the specified start year.
+
+
 3. Data Transformation
 The collected data is transformed into a pivot table, where:
 
