@@ -49,7 +49,9 @@ Copy
 Edit
 # Configuration
 country_code = "PER"  # Specify country code (e.g., 'PER' for Peru)
+
 start_year = 2010  # Define start year for filtering
+
 output_path = "/path/to/output/Economic Indicators.csv"  # Output CSV path
 
 # Run the script to retrieve and save data
