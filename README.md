@@ -67,12 +67,12 @@ Employment in Agriculture (%)	25.3	24.8	24.5	...
 
 Deposit Interest Rates (%)	4.7	4.3	4.1	...
 
-Customization
+## Customization
 Change Country
 
 Update the country_code variable with the ISO code of your desired country.
 
-Add/Remove Indicators
+## Add/Remove Indicators
 
 Modify the indicator_codes list to include or exclude specific indicators.
 
@@ -80,10 +80,10 @@ Change Output File Path
 
 Update the file path in the to_csv() method to save the output in a preferred location.
 
-Error Handling
+## Error Handling
 
 The script logs failed API requests for indicators and their corresponding HTTP status codes.
 Ensure the country code and indicator codes are valid per the World Bank Data API documentation.
 
-Contribution
+## Contribution
 Contributions, suggestions, and feature requests are welcome. Feel free to open an issue or submit a pull request.
