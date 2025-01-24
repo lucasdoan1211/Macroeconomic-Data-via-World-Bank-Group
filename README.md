@@ -4,17 +4,24 @@ This repository provides a Python script designed to retrieve and process macroe
 
 ## Features
 Flexible Country Selection: Specify any country's ISO 3166-1 alpha-3 code to retrieve data (e.g., PER for Peru).
+
 Diverse Indicator Range: Access a predefined set of 23 economic indicators, including GDP growth, employment statistics, and financial metrics.
+
 Customizable Time Range: Configure the script to filter data starting from a specific year (e.g., 2010).
+
 Dynamic Data Filtering: Automatically excludes missing values to ensure clean datasets.
+
 Export to CSV: Outputs a processed and pivoted dataset in CSV format for further analysis.
-Prerequisites
+
+## Prerequisites
 Ensure you have the following installed:
 
 Python 3.7 or higher
 Required libraries:
 requests
 pandas
+
+Refer to the DataBank Economic Series Names to identify the corresponding code for the economic indicator you wish to retrieve. Each indicator in the World Bank DataBank is associated with a unique code, which must be specified in the script to fetch the desired data.
 
 1. Base Configuration
 The script uses the World Bank's API (https://api.worldbank.org/v2) as the base URL. You can specify:
